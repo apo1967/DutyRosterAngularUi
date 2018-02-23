@@ -1,2 +1,0 @@
-# DutyRosterAngularUi
-Angular Evaluation Project
