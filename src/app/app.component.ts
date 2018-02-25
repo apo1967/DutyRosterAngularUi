@@ -4,7 +4,7 @@ import { FileUploader } from 'ng2-file-upload';
 declare var UIkit: any;
 
 // the route to the uploader
-const URL = 'https://evening-anchorage-3159.herokuapp.com/api/';
+const URL = 'http://localhost:8089/upload';
 
 @Component({
   selector: 'dru-root',
@@ -12,7 +12,7 @@ const URL = 'https://evening-anchorage-3159.herokuapp.com/api/';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dru';
+  title = 'Duty Roster UI';
   public uploader:FileUploader = new FileUploader({url: URL});
   public hasBaseDropZoneOver:boolean = false;
 
